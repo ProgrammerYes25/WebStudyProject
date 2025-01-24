@@ -1,0 +1,43 @@
+*{
+ list-style-type: none;
+ text-decoration-line: none;
+ color: #474747;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.head{
+    text-align: center;
+    font-size: 32pt;
+}
+.navtext1{
+    color: #868686;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.navtext2{
+    color: #868686;
+    font-size: 20pt;
+}
+.navtextch{
+    color: #FFFFFF;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.mainhead{
+    color: #565656;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.maintext1{
+    color: #565656;
+    font-size: 16pt;
+}
+
+nav{
+    border-right: 2px solid #DEE9FD;
+}
+header{
+    border-bottom: 2px solid #DEE9FD;
+}
