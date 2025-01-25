@@ -2,6 +2,7 @@
  list-style-type: none;
  text-decoration-line: none;
  color: #474747;
+ padding-inline-start: 0;
 }
 #grid{
     display: grid;
@@ -37,7 +38,37 @@
 
 nav{
     border-right: 2px solid #DEE9FD;
+    height: 1000px;
+    width: 270px;
+    padding-inline-start: 10;
 }
 header{
     border-bottom: 2px solid #DEE9FD;
+    height: 100px;
+}
+li.navtext1{
+    width: 250px;
+    height: 45px;
+    padding-left: 20px;
+}
+li.navch1{
+    width: 230px;
+    background-color: #ADC6F6;
+    padding-left: 40px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+li.navtext2{
+    width: 230px;
+    background-color: #FFEFF0;
+    padding-left: 40px;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+li.navch2{
+    width: 230px;
+    background-color: #F8CACC;
+    padding-left: 40px;
+    padding-top:8px;
+    padding-bottom: 8px;
 }
