@@ -4,6 +4,7 @@
         <title>고잉 세븐틴 안내서</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="../CSS/style.css?after">
+        <script src="../JS/colors.js"></script>
     </head>
     <body>
         <header>
@@ -12,7 +13,7 @@
         <div id="grid">
             <nav>
                 <ul>
-                    <a href="./report.html"><li class="navtext1">소개</li></a>
+                    <a href="./report.html"><li class="navtext1 navch1">소개</li></a>
                     <a href="./series.html"><li class="navtext1">시리즈</li></a>
                     <a href=""><li class="navtext1">난이도별</li></a>
                 </ul>  
@@ -24,7 +25,12 @@
                     고잉 세븐틴과 함께 세븐틴의 다양한 매력에 빠져 보세요!<br>
                     '시트콤', '버라이어티', '토크쇼', '관찰'등 당신 원하는 모든 컨텐츠가 이 곳에 있습니다.
                 </p>
+                <input id="night_day" type="button" value="night" onclick="
+            nightDayHandler(this);
+          ">
             </main>
+            
         </div>
     </body>
+    
 </html>
