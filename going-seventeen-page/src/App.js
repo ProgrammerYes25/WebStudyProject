@@ -1,4 +1,8 @@
-import './css/App.css';
+import './styles/App.css';
+import React, { useState } from 'react';
+import Nav from './components/Navigation/Nav.js'
+import Header from './components/Header/Header.js';
+import Main from './components/Main/Main.js';
 
 function App() {
   const [mode, setMode] =useState('HOME');
