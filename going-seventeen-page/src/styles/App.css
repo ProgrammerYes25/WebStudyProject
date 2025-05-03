@@ -1,0 +1,10 @@
+*{
+  list-style-type: none;
+  text-decoration-line: none;
+  color: #474747;
+  padding-inline-start: 0;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
