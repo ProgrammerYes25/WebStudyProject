@@ -4,41 +4,40 @@ nav{
     width: 270px;
     padding-inline-start: 10;
 }
-.manu1{
+.text1{
     color: #868686;
     font-size: 20pt;
     font-weight: bold;
 }
-.manu2{
+.text2{
     color: #868686;
     font-size: 20pt;
 }
-.manu1-ch{
+.textch{
     color: #FFFFFF;
     font-size: 20pt;
     font-weight: bold;
-    
 }
-li.manu1{
+li.text1{
     width: 250px;
     height: 45px;
     padding-left: 20px;
 }
-li.manu1-ch{
+li.ch1{
     width: 250px;
     background-color: #ADC6F6;
     padding-top:8px;
     padding-left: 20px;
     padding-bottom: 8px;
 }
-li.manu2{
+li.text2{
     width: 230px;
     background-color: #FFEFF0;
     padding-left: 40px;
     padding-top:8px;
     padding-bottom: 8px;
 }
-li.manu2-ch{
+li.ch2{
     width: 230px;
     background-color: #F8CACC;
     padding-left: 40px;
